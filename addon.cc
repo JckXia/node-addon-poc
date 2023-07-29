@@ -34,7 +34,7 @@ Napi::Value CallJoinFromCppLand(const Napi::CallbackInfo& info)
 }
 
 Napi::Object Init(Napi::Env env, Napi::Object exports) {
-  exports.Set("js_require", Napi::Function::New(env,CallJoinFromCppLand));
+  exports.Set("cc_require", Napi::Function::New(env,CallJoinFromCppLand));
   return exports;
 }
 

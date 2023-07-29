@@ -6,4 +6,4 @@ var addon = require('./build/Release/hello.node')
 
 // This will print out https/pagerduty/api, which acts
 // as if we invoked path.join('https','pagerduty','api') from js
-console.log(addon.js_require(module));
+console.log(addon.cc_require(module));
